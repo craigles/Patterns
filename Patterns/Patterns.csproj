@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Visitor\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Visitor\Addition.cs" />
+    <Compile Remove="Visitor\ExpressionVisitor.cs" />
+    <Compile Remove="Visitor\IExpression.cs" />
+  </ItemGroup>
+</Project>
