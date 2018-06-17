@@ -3,11 +3,11 @@ using System.Text;
 
 namespace Patterns.Visitor
 {
-    public interface IExpressionVisitor
-    {
-        void Visit(LiteralExpression literal);
-        void Visit(BinaryExpression expression);
-    }
+  public interface IExpressionVisitor
+  {
+    void Visit(LiteralExpression literal);
+    void Visit(BinaryExpression expression);
+  }
 
   public class ExpressionVisitor : IExpressionVisitor
   {
