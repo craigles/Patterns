@@ -8,10 +8,9 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            var e = new BinaryExpression(
-              new BinaryExpression(
-                new LiteralExpression(3), Operation.Addition, new LiteralExpression(4)),
-                Operation.Subtraction, 
+            var e = new Addition(
+        new Multiplication(
+                new LiteralExpression(3), new LiteralExpression(4)),
                 new LiteralExpression(2));
       
             var sb = new StringBuilder();

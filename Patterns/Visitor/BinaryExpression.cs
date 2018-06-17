@@ -5,7 +5,7 @@
     void Accept(IExpressionVisitor visitor);
   }
 
-  public class BinaryExpression : IExpression
+  public abstract class BinaryExpression : IExpression
   {
     public IExpression Left { get; set; }
     public Operation Operation { get; set; }

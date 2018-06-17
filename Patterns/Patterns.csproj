@@ -9,7 +9,6 @@
     <Folder Include="Visitor\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Remove="Visitor\Addition.cs" />
     <Compile Remove="Visitor\ExpressionVisitor.cs" />
     <Compile Remove="Visitor\IExpression.cs" />
   </ItemGroup>
